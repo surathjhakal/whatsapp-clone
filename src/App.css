@@ -16,7 +16,7 @@
   background-color: #ededed;
   box-shadow: -1px 4px 10px -6px black;
   display: grid;
-  grid-template-columns: 30% auto;
+  grid-template-columns: 30% 70%;
 }
 
 .app_header {
@@ -24,4 +24,17 @@
   position: fixed;
   background-color: #409788;
   width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  .app_content {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .app_content {
+    grid-template-columns: 210px auto;
+  }
 }

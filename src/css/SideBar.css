@@ -68,6 +68,6 @@
 .sideBar_chats {
   display: flex;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow-y: auto;
   background-color: #fff;
 }

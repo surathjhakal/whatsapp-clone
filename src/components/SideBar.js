@@ -9,17 +9,11 @@ import NotificationsOffIcon from "@material-ui/icons/NotificationsOff";
 import SearchIcon from "@material-ui/icons/Search";
 
 const SideBar = () => {
-  const [avatar, setAvatar] = useState("");
-  useEffect(() => {
-    setAvatar(Math.floor(Math.random() * 100));
-  }, []);
   return (
     <div className="sideBar">
       <div className="sideBar_header">
         <IconButton>
-          <Avatar
-            src={`https://avatars.dicebear.com/api/human/${avatar}.svg`}
-          />
+          <Avatar />
         </IconButton>
         <div className="sideBar_header_right">
           <IconButton>
