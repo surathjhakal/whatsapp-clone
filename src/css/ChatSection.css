@@ -1,0 +1,17 @@
+.chatSection {
+  display: grid;
+  grid-template-rows: 6% auto 6%;
+  height: 100%;
+}
+
+.chatSection_header {
+  display: flex;
+  background-color: azure;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.chatSection_footer {
+  background-color: aquamarine;
+}
