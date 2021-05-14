@@ -14,3 +14,18 @@
 .sideBarChat_info {
   margin-left: 5%;
 }
+
+.add_chat {
+  text-align: center;
+  width: 100%;
+}
+
+.newHover {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  font-style: italic;
+}
+
+.newHover:hover {
+  background-color: #c9c9c9;
+  color: #fff;
+}

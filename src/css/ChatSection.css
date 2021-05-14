@@ -28,11 +28,12 @@
 .chatSection_message {
   position: relative;
   padding: 10px;
-  padding-top: 22px;
+  padding-top: 20px;
   background-color: #fff;
   border-radius: 10px;
   width: fit-content;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .chat_reciever {
@@ -41,16 +42,16 @@
 }
 
 .chatSection_timestamp {
-  font-size: 12px;
+  font-size: 9px;
   margin-left: 0.8rem;
   font-weight: 600;
 }
 
 .chatSection_name {
   position: absolute;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
-  top: 4px;
+  top: 2px;
   left: 10px;
   display: flex;
 }
@@ -65,7 +66,7 @@
 .message_input {
   /* padding: 5%; */
   display: flex;
-  padding: 10px 10px;
+  padding: 12px 10px;
   outline: none;
   border: none;
   border-radius: 10px;
